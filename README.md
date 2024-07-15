@@ -14,7 +14,7 @@ Top speed of **40 blocks a second**.
 Crafted with the same recipe as powered rails, but with diamonds instead of gold.
 ### Enhanced diamond rails
 Top speed of **80 blocks a second**.
-Crafted by upgrading a diamond rail with a lapis block and a chorus fruit in a smithing table.
+Crafted by "enhancing" a diamond rail with a lapis block and a chorus fruit in a smithing table.
 ### Netherite rails
 Top speed of **159.66 blocks a second** ([real-life world speed record for a wheeled high speed train](https://en.wikipedia.org/wiki/Railway_speed_record#Conventional_wheeled), 574.8 km/h aka 159.66 m/s).
 Crafted by upgrading an enhanced diamond rail with a netherite smithing upgrade and a netherite ingot in a smithing table.
