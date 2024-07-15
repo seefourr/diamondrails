@@ -24,3 +24,9 @@ Crafted by upgrading an enhanced diamond rail with a netherite smithing upgrade 
   - Instead, use vanilla powered rails to slow minecarts down before turning corners, and use vanilla powered rails to go uphill. Go downhill using normal/powered rails so you don't go flying off the track.
 - Ideally, tracks should be straight and flat.
 - The rails are actually not as expensive as you might think, as a couple Diamond/Enhanced rails can give a minecart enough momentum for hundreds of blocks, or thousands for Netherite rails.
+
+
+## Potential future additions
+- Copper rails (unsure what level I'll put these at)
+- Possibly outright buff default vanilla rail speed
+- Uphill/downhill on the mod's rails
