@@ -30,3 +30,4 @@ Crafted by upgrading an enhanced diamond rail with a netherite smithing upgrade 
 - Copper rails (unsure what level I'll put these at)
 - Possibly outright buff default vanilla rail speed
 - Uphill/downhill on the mod's rails
+- _I also need to slightly fix up the code as I messed up in the naming of the mod. It should be seefourr.diamond.rails and not diamond.rails.seefourr, as this results in "diamond" appearing first in the mod's files instead of "seefourr". :(. But it doesn't affect gameplay so this will probably stay on the backburner for a while._
