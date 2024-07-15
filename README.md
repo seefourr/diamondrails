@@ -1,4 +1,4 @@
-_This mod is a continuation of [the mod of the same name by arthomnix](https://modrinth.com/mod/diamond-rails) which never updated from 1.19.2._
+_This mod is a continuation of [the mod of the same name by arthomnix](https://modrinth.com/mod/diamond-rails), source [here](https://github.com/arthomnix/diamondrails), which never updated from 1.19.2._
 
 _All credit for the original code and assets (icons, models) goes to arthomnix. All code is freely usable under the MIT license._
 
