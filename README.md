@@ -21,7 +21,8 @@ Crafted by upgrading an enhanced diamond rail with a netherite smithing upgrade 
 
 ## Building railways
 - It is currently impossible to turn corners or go uphill/downhill while travelling on any modded rails. 
-  - Instead, use vanilla powered rails to slow minecarts down before turning corners, and use vanilla powered rails to go uphill. Go downhill using normal/powered rails so you don't go flying off the track.
+  - Instead, use vanilla powered rails to slow minecarts down before turning corners.
+  - Powered rails are also recommended for going uphill and downhill so you don't go flying off the track.
 - Ideally, tracks should be straight and flat.
 - The rails are actually not as expensive as you might think, as a couple diamond/enhanced diamond rails can give a minecart enough momentum for hundreds of blocks, or thousands for netherite rails.
 
