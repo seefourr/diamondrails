@@ -28,6 +28,7 @@ public class Diamondrails implements ModInitializer{
             content.addAfter(ModItems.DIAMOND_RAIL, ModItems.ENHANCED_DIAMOND_RAIL);
             content.addAfter(ModItems.ENHANCED_DIAMOND_RAIL, ModItems.NETHERITE_RAIL);
         });
+        // ^^ this should really be in the ModItems class but I'm not really bothered as I have 3 items
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
     }
