@@ -28,7 +28,7 @@ Crafted by upgrading an enhanced diamond rail with a netherite smithing upgrade 
 
 
 ## Potential future additions
-- Copper rails (unsure what level I'll put these at)
+- Copper rails; I did see [a mod](https://modrinth.com/mod/thecopperrail) which added copper rails with a "directional" function which could be interesting but I guess if you want that you can just get that mod yourself, it probably (untested) works with this mod
 - Possibly outright buff default vanilla rail speed
-- Uphill/downhill on the mod's rails
+- Uphill/downhill/corners on the mod's rails
 - _I also need to slightly fix up the code as I messed up in the naming of the mod. It should be seefourr.diamond.rails and not diamond.rails.seefourr, as this results in "diamond" appearing first in the mod's files instead of "seefourr". :(. But it doesn't affect gameplay so this will probably stay on the backburner for a while._
