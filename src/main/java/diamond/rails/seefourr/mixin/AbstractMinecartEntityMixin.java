@@ -25,7 +25,7 @@ public abstract class AbstractMinecartEntityMixin extends Entity {
 
     @Redirect(method = "moveOnRail", at = @At(value = "INVOKE", target = "Lnet/minecraft/block/BlockState;isOf(Lnet/minecraft/block/Block;)Z"))
     private boolean checkForNewPoweredRailTypes(BlockState state, Block block) {
-        return state.isIn(DiamondRails.TAG_POWERED_RAILS);
+        return state.isIn(Diamondrails.TAG_POWERED_RAILS);
     }
 
     @Redirect(method = "moveOnRail", at = @At(value = "INVOKE", target = "Lnet/minecraft/util/math/Vec3d;add(DDD)Lnet/minecraft/util/math/Vec3d;", ordinal = 5))
