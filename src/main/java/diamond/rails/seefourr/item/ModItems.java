@@ -9,30 +9,21 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+    
+    public static final Item DIAMONDRAIL = registerItem("diamond_rail",
+            new BlockItem(ModBlocks.DIAMOND_RAIL,new FabricItemSettings()));
+    
+    public static final Item ENHANCEDDIAMONDRAIL = registerItem("enhanced_diamond_rail",
+            new BlockItem(ModBlocks.ENHANCED_DIAMOND_RAIL,new FabricItemSettings()));
+    
+    public static final Item NETHERITE_RAIL = registerItem("netherite_rail",
+            new BlockItem(ModBlocks.NETHERITE_RAIL,new  FabricItemSettings()));
 
-    public static Item register(Item item, String id) {
-        Identifier itemID = Identifier.of(Diamondrails.MOD_ID, id);
-        Item registeredItem;
-        registeredItem = Registry.register(Registries.ITEM, itemID, item);
-        return registeredItem;
+    private static Item registerItem(String name, Item item) {
+        return Registry.register(Registries.ITEM, new Identifier(DiamondRails.MOD_ID, name), item);
     }
 
-    public static final Item DIAMOND_RAIL = register(
-            new BlockItem(ModBlocks.DIAMONDRAIL, new Item.Settings()),
-            "diamond_rail"
-    );
-
-    public static final Item ENHANCED_DIAMOND_RAIL = register(
-            new BlockItemWithGlint(ModBlocks.ENHANCEDDIAMONDRAIL, new Item.Settings()),
-            "enhanced_diamond_rail"
-    );
-
-    public static final Item NETHERITE_RAIL = register(
-            new BlockItem(ModBlocks.NETHERITERAIL, new Item.Settings()),
-            "netherite_rail"
-    );
-
     public static void registerModItems() {
-        Diamondrails.LOGGER.info("Registering items for " + Diamondrails.MOD_ID);
+        DiamondRails.LOGGER.info("Registering Mod Items for " + DiamondRails.MOD_ID);
     }
 }
