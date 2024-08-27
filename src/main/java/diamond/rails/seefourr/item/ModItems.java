@@ -3,6 +3,7 @@ package diamond.rails.seefourr.item;
 import diamond.rails.seefourr.Diamondrails;
 import diamond.rails.seefourr.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
